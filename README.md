@@ -10,6 +10,35 @@ English | [中文](README_CN.md)
 
 [![Star History Chart](https://starchart.cc/wjc9011/COMSOL_Multiphysics_MCP.svg)](https://starchart.cc/wjc9011/COMSOL_Multiphysics_MCP)
 
+## Publication and Citation
+
+The research paper describing COMSOL-MCP is available in *Neurocomputing*:
+
+> Naiyin Zhang and Junchao Wang, “[COMSOL-MCP: An open-source model context protocol interface for AI-assisted multiphysics simulation](https://doi.org/10.1016/j.neucom.2026.134481),” *Neurocomputing*, vol. 703, article 134481, 2026.
+
+Publisher page: [ScienceDirect](https://linkinghub.elsevier.com/retrieve/pii/S0925231226018795)
+
+If COMSOL-MCP contributes to your research, please cite the paper:
+
+```bibtex
+@article{Zhang2026COMSOLMCP,
+  title   = {COMSOL-MCP: An Open-Source Model Context Protocol Interface for AI-Assisted Multiphysics Simulation},
+  author  = {Zhang, Naiyin and Wang, Junchao},
+  journal = {Neurocomputing},
+  volume  = {703},
+  pages   = {134481},
+  year    = {2026},
+  doi     = {10.1016/j.neucom.2026.134481},
+  url     = {https://doi.org/10.1016/j.neucom.2026.134481}
+}
+```
+
+### Citation guidance
+
+- Cite the paper when referring to the COMSOL-MCP method, architecture, capabilities, or evaluation.
+- If you use or modify the software, cite both the paper and the repository. Use GitHub’s **Cite this repository** menu, which is backed by [`CITATION.cff`](CITATION.cff).
+- For reproducibility, identify the exact release tag or commit used and include the repository URL and access date in your data/code availability statement.
+
 ## Project Goal
 
 Build a complete COMSOL MCP Server enabling AI agents (like Claude, opencode) to perform multiphysics simulations through the MCP protocol:
