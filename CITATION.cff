@@ -24,7 +24,7 @@ preferred-citation:
   title: "COMSOL-MCP: An open-source model context protocol interface for AI-assisted multiphysics simulation"
   journal: "Neurocomputing"
   volume: 703
-  issue: 134481
+  start: 134481
   year: 2026
   doi: "10.1016/j.neucom.2026.134481"
   url: "https://doi.org/10.1016/j.neucom.2026.134481"
