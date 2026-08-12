@@ -10,6 +10,35 @@
 
 [![Star History Chart](https://starchart.cc/wjc9011/COMSOL_Multiphysics_MCP.svg)](https://starchart.cc/wjc9011/COMSOL_Multiphysics_MCP)
 
+## 📄 相关论文与引用
+
+介绍 COMSOL-MCP 的研究论文已发表于 *Neurocomputing*：
+
+> Naiyin Zhang and Junchao Wang, “[COMSOL-MCP: An open-source model context protocol interface for AI-assisted multiphysics simulation](https://doi.org/10.1016/j.neucom.2026.134481),” *Neurocomputing*, vol. 703, article 134481, 2026.
+
+出版商页面：[ScienceDirect](https://linkinghub.elsevier.com/retrieve/pii/S0925231226018795)
+
+如果 COMSOL-MCP 对您的研究有帮助，请引用该论文：
+
+```bibtex
+@article{Zhang2026COMSOLMCP,
+  title   = {COMSOL-MCP: An Open-Source Model Context Protocol Interface for AI-Assisted Multiphysics Simulation},
+  author  = {Zhang, Naiyin and Wang, Junchao},
+  journal = {Neurocomputing},
+  volume  = {703},
+  pages   = {134481},
+  year    = {2026},
+  doi     = {10.1016/j.neucom.2026.134481},
+  url     = {https://doi.org/10.1016/j.neucom.2026.134481}
+}
+```
+
+### 引用指引
+
+- 介绍 COMSOL-MCP 的方法、架构、功能或评估结果时，请引用上述论文。
+- 使用或修改本软件时，建议同时引用论文和代码仓库。可使用 GitHub 的 **Cite this repository**（引用此仓库）菜单；引用信息由 [`CITATION.cff`](CITATION.cff) 提供。
+- 为确保研究可复现，请注明所使用的具体发布版本或 commit，并在数据/代码可用性声明中附上仓库链接和访问日期。
+
 ## 🎯 项目目标
 
 构建完整的 COMSOL MCP Server，使 AI 代理能够通过 MCP 协议执行多物理场仿真：
